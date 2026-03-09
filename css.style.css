@@ -1,0 +1,330 @@
+body {
+    font-family: "Lilex", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1 {
+    display: flex;
+    background-color: black;
+}
+.colour1 {
+    width: 400px;
+    height: 700px;
+    background-color:black;
+    padding-left: 110px;
+    display: inline-block;
+    border: rgba(155, 93, 229, 0.8);
+    border-style: inset;
+    border-width: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: px;
+}
+.colour2 {
+    width: 1000px;
+    height: 720px;
+    background-color: rgba(155, 93, 229, 0.8);
+    display: inline-block;
+}
+.main2 {
+    background-color: white;
+    width: 630px;
+    height: 500px;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding-left: 5px;
+    border-radius: 20%;
+    margin-left: 150px;
+}
+
+.navbar {
+    width: 400px;
+    display: inline;
+    height: 50px;
+    color: black;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+li:hover {
+    color: blueviolet;
+}
+
+.letter {
+    margin-top: 100px;
+    margin-left: 60px;
+    background-color: white;
+    padding-bottom: 50px;
+    color: black;
+    border-radius: 10px;
+}
+
+.para {}
+
+.one {
+    margin-left: 180px;
+}
+
+.imgcontainer {
+    background-color: white;
+    width: 190px;
+    height: 501px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.img1 {
+    width: 450px;
+    height: 600px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 30px;
+    border-color: rgba(155, 93, 229, 0.8);
+    border-width: 2px;
+    border-style: ridge;
+    position: relative;
+    margin-right: 30px;
+    margin-left: x;
+}
+.two {
+    margin-left: 15px;
+}
+.single {
+    margin-top: 10px;
+}
+#quote {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #0b0b0f;
+}
+.hireme:hover {
+    transform: scale(1.1);
+}
+.hireme {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: rgba(155, 93, 229, 0.8);
+    color: white;
+    background-color: rgb(140, 63, 235);
+}
+
+.view:hover {
+    transform: scale(1.1);
+}
+
+.view {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: rgba(155, 93, 229, 0.8);
+    color: white;
+    background-color: rgb(140, 63, 235);
+}
+
+.three {
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: white;
+    background-color: rgba(155, 93, 229, 0.8);
+    border-color: rgba(155, 93, 229, 0.8);
+    ;
+}
+
+.skills-section {
+    padding: 80px 10%;
+    z-index: 1;
+}
+.skills-section h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 60px;
+    color: #fff;
+    z-index: 1;
+}
+.skills-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* LEFT SIDE */
+.skill-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    gap: 30px;
+}
+/* HEXAGON */
+.hex {
+    width: 140px;
+    height: 160px;
+    background: linear-gradient(135deg, #9b5de5, #5a189a);
+    clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    box-shadow: 0 0 25px rgba(155, 93, 229, 0.4);
+}
+
+.hex:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 40px rgba(155, 93, 229, 0.8);
+}
+
+/* RIGHT SIDE */
+.skill-bars {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 420px;
+}
+.bar {
+    margin-bottom: 30px;
+}
+.bar-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #111;
+}
+.progress {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.fill {
+    height: 100%;
+    background: linear-gradient(90deg, #9b5de5, #5a189a);
+    border-radius: 50px;
+    animation: load 1.5s ease-in-out;
+}
+@keyframes load {
+    from {
+        width: 0;
+    }
+}
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .skill-cards {
+        grid-template-columns: repeat(2, 140px);
+    }
+
+    .skill-bars {
+        width: 100%;
+    }
+}
+
+/*projects*/
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     margin-bottom: 60px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #9b5de5, #5a189a);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.project-desc {
+    font-size: 1em;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-top: 5px;
+}
+
+.project-link:hover {
+    background: linear-gradient(135deg, #9b5de5, #5a189a);
+    ;
+}
